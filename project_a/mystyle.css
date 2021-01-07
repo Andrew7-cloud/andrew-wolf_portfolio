@@ -1,0 +1,82 @@
+html {
+  font-family: Helvetica, "Lucida Sans", sans-serif;
+}
+
+body {
+  background-color: rgb(255,255,255);
+}
+
+.header{
+  color:rgb(0,0,0);
+  text-align:center;
+  border: RGB(19,41,75);
+  background-color: RGB(123,175,212);
+    }
+
+
+p1{
+  color:RGB(19,41,75);
+  font-size:1px;
+
+}
+
+
+/*
+1. Arial
+2. Times New Roman
+3. Helvetica
+
+color: the color of the font
+background-color: background of selected (row in browswer)
+border: border of (row in browser)
+font-size:60px;
+font-size:300%;
+font-family:courier;
+text-align:center;
+color:blue;
+background-color:powderblue;
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 7px;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+Carolina Colors
+CAROLINA BLUE 
+PANTONE: PMS 542
+HEX COLOR: #7BAFD4;
+RGB:(123,175,212)
+CMYK: (60,19,1,4)
+BUY MATCHING PAINT
+
+WHITE
+HEX COLOR: #FFF;
+RGB:(255,255,255)
+CMYK: (0,0,0,0)
+
+NAVY BLUE
+PANTONE: PMS 2767
+HEX COLOR: #13294B;
+RGB:(19,41,75)
+CMYK: (100,90,10,77)
+
+PITCH BLACK
+PANTONE: PMS PROCESS BLACK C
+HEX COLOR: #000;
+RGB:(44,42,41)
+CMYK: (0,0,0,100)
+
+SILVER
+PANTONE: PMS 877 C
+HEX COLOR: #8D9092;
+RGB:(141,144,146)
+CMYK: (23,16,13,46)
+
+FLAT GRAY
+PANTONE: PMS 429 C
+HEX COLOR: #A2AAAD;
+RGB:(162,170,173)
+CMYK: (21,11,9,23)
+
+
+  */

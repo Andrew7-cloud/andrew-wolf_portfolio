@@ -1,0 +1,85 @@
+<!-- 
+https://www.w3schools.com/tags/tag_map.asp
+
+The idea behind an image map is that you should be able to perform different actions depending on where in the image you click.
+area
+A clickable area is defined using an <area> element.
+
+Use the HTML <map> element to define an image map
+Use the HTML <area> element to define the clickable areas in the image map
+Use the HTML usemap attribute of the <img> element to point to an image map
+
+image map, clickable area (peremter) defined by the <area> element
+
+img usemap -- map name
+The usemap value starts with a hash tag # followed by the name of the image map, and is used to create a relationship between the image and the image map.
+
+SHAPE
+You must define the shape of the clickable area, and you can choose one of these values:
+rect - defines a rectangular region
+circle - defines a circular region
+poly - defines a polygonal region
+default - defines the entire region
+
+Rectangle example
+(top left corner on rectangle) x and y axis 34,44 is located 34 pixels from the left margin and 44 pixels from the top
+(bottomr right corner on rectangle) x and y axis 270,350 is located 34 pixels from the left margin and 44 pixels from the top
+<area shape="rect" coords="34, 44, 270, 350" href="computer.htm">
+
+Circle example
+(center of circle) x and y axis 337,300 is located 337 pixels from the left margin and 300 pixels from the top
+(specify radisu of circle) 44 pixels
+<area shape="circle" coords="337, 300, 44" href="coffee.htm">
+
+Poly example
+1. Find the x and y coordinates for all the edges of the object, x and y pair
+2.  Add to coords   
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the croissant to go to a new page and read more about the topic:</p>
+
+<img src="frenchfood.jpg" alt="French Food" usemap="#foodmap" width="450" height="675">
+
+<map name="foodmap">
+  <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" alt="Croissant" href="croissant.htm">
+</map>
+
+</body>
+</html>
+
+-->
+<!-- Solar System Objects example-->
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>The map and area elements</h1>
+    <p>Click on the sun or on one of the planets to watch it closer:</p>
+
+    <img src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+    <map name="planetmap">
+        <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+        <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+        <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+    </map>
+</body>
+
+<!-- Workplace example-->
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+
+
+
+
+
+</html>

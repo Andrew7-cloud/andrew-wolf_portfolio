@@ -1,0 +1,261 @@
+<!-- 
+    specify that only specific HTML elements should be affected by a class
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSMasterFile</title>
+    <link rel="stylesheet" href="mystyle.css">
+
+    <style>
+        h1.center {
+            text-align:
+                left;
+            color:
+                black;
+        }
+
+        p.center {
+            text-align: center;
+            color: red;
+        }
+
+
+        #para1 {
+            text-align: left;
+            color: blue;
+        }
+
+        /* css commnets */
+
+        div.first {
+            opacity: 0.5;
+        }
+
+        div.second {
+            background: rgba(0, 128, 0, 0.3);
+    </style>
+
+</head>
+
+<body>
+
+    <!-- 3 Selectors->
+
+                <!-- 3a Same class for P and H1 elements, but differentiate with element       -->
+
+    <!-- solution example: file path  -->
+    <h1>ccs_3a_selectors</h1>
+    <h1 class="center">css ch.3a Using the h1 element, assigned to a class</h1>
+    <p class="center">css ch.3a Using the p1 element, assigned to the same class as the above h1</p>
+    <br>
+
+    <!-- link to source file -->
+    <a href="C:/Users/andre/Desktop/CodingTemple/code_temple/html_css/css/css3_selectors_class_with_p.html"><br>
+        link to source file</a>
+    <br>
+
+    <!-- 3b id and # -->
+    <!-- solution example: id and #  -->
+    <h1>ccs_3b_selectors</h1>
+
+    <p id="para1">css_ch.3b Using id and #</p>
+    <p>This paragraph is not affected by the style.</p>
+
+    <br>
+
+    <!-- link to source file -->
+    <a href="C:/Users/andre/Desktop/CodingTemple/code_temple/html_css/css/css3_selectors_class_with_p.html"><br>
+        link to source file</a>
+    <br>
+
+    <!-- 3c same css style applied to multiple elements    -->
+    <!-- solution example:   -->
+    <h1>ccs_3c_selectors</h1>
+
+    <!--
+    h1,
+    h2,
+    p {
+        text-align: center;
+        color: red;
+    }
+    <h1>Hello World!</h1>
+    <h2>Smaller heading!</h2>
+    <h3>What about little old me?</h3>
+    <p>This is a paragraph.</p>
+    <br>
+-->
+    <!-- link to source file -->
+    <a href="C:/Users/andre/Desktop/CodingTemple/code_temple/html_css/css/css3_selectors_grouping_selector.html"><br>
+        link to source file</a>
+    <br>
+
+
+    <!-- 3d css style applied to all elements    -->
+    <!-- solution example:   -->
+    <h1>ccs_3c_selectors_astericks</h1>
+    <p>Place an * to style all elements</p>
+    <br>
+
+    <!-- link to source file -->
+    <a href="C:/Users/andre/Desktop/CodingTemple/code_temple/html_css/css/css3_selectors_universal_asterick.html"><br>
+        link to source file</a>
+    <br>
+
+
+    <!-- 4 How To->
+                <!-- 4a-->
+    <!-- solution example: inline  -->
+    <h1>ccs_4a_how_to_css_inline</h1>
+    <br>
+
+    <!-- link to source file -->
+    <a href="C:/Users/andre/Desktop/CodingTemple/code_temple/html_css/css/css4_how_to_inline_css.html"><br>
+        link to source file</a>
+    <br>
+
+    <!-- 4b  -->
+    <!-- solution example: insert  -->
+    <h1>ccs_4b_how_to_css_insert</h1>
+    <br>
+
+    <!-- link to source file -->
+    <a href="C:/Users/andre/Desktop/CodingTemple/code_temple/html_css/css/css4_how_to_insert_css.html"><br>
+        link to source file</a>
+    <br>
+
+    <!-- 4c     -->
+    <!-- solution example:   -->
+    <h1>ccs_4c_how_to_css_internal</h1>
+
+    <!-- link to source file -->
+    <a href="C:/Users/andre/Desktop/CodingTemple/code_temple/html_css/css/css4_how_to_internal_css.html"><br>
+        link to source file</a>
+    <br>
+
+
+    <!-- 5 Comments->
+                <!-- 5a-->
+    <!-- solution example: comments  -->
+    <h1>ccs_5a_comments</h1>
+    <br>
+
+    <!-- link to source file -->
+    <a href="C:/Users/andre/Desktop/CodingTemple/code_temple/html_css/css/css4_how_to_inline_css.html"><br>
+        link to source file</a>
+    <br>
+
+
+    <!-- 6 Colors->
+                <!-- 6a-->
+    <!-- solution example: background-color  -->
+    <h1>ccs_6a_colors</h1>
+    <br>
+
+    <h1 style="background-color:Tomato;">ccs_6a background-color:Tomato</h1>
+
+    <!-- link to source file -->
+    <a href="C:/Users/andre/Desktop/CodingTemple/code_temple/html_css/css/css6_colors.html"><br>
+        link to source file</a>
+    <br>
+
+    <!-- 6b-->
+    <!-- solution example: color  -->
+    <h1>ccs_6b_color</h1>
+    <br>
+    <p style="color:DodgerBlue;">color:dodgerblue</p>
+
+    <!-- link to source file -->
+    <a href="C:/Users/andre/Desktop/CodingTemple/code_temple/html_css/css/css6_colors.html"><br>
+        link to source file</a>
+    <br>
+
+
+    <!-- 6c-->
+    <!-- solution example: border  -->
+    <h1>ccs_6c_border</h1>
+    <br>
+    <h1 style="border: 2px solid DodgerBlue;">border: 2px solid</h1>
+
+    <!-- link to source file -->
+    <a href="C:/Users/andre/Desktop/CodingTemple/code_temple/html_css/css/css6_colors.html"><br>
+        link to source file</a>
+    <br>
+
+
+    <!-- 6d-->
+    <!-- solution example: rgb  -->
+    <h1>ccs_6d_rgb</h1>
+    <br>
+    <h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+    <h1 style="background-color:#ff6347;">#ff6347</h1>
+    <h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+
+    <!-- link to source file -->
+    <a href="C:/Users/andre/Desktop/CodingTemple/code_temple/html_css/css/css6_colors.html"><br>
+        link to source file</a>
+    <br>
+
+
+    <!-- 6e-->
+    <!-- solution example: rgba  -->
+    <h1>ccs_6e_rgba</h1>
+    <br>
+
+    <h1 style="background-color:rgba(255, 99, 71, 0);">rgba(255, 99, 71, 0)</h1>
+    <h1 style="background-color:rgba(255, 99, 71, 0.2);">rgba(255, 99, 71, 0.2)</h1>
+    <h1 style="background-color:rgba(255, 99, 71, 0.4);">rgba(255, 99, 71, 0.4)</h1>
+    <h1 style="background-color:rgba(255, 99, 71, 0.6);">rgba(255, 99, 71, 0.6)</h1>
+    <h1 style="background-color:rgba(255, 99, 71, 0.8);">rgba(255, 99, 71, 0.8)</h1>
+    <h1 style="background-color:rgba(255, 99, 71, 1);">rgba(255, 99, 71, 1)</h1>
+
+    <!-- link to source file -->
+    <a href="C:/Users/andre/Desktop/CodingTemple/code_temple/html_css/css/css6_colors.html"><br>
+        link to source file</a>
+    <br>
+
+
+
+
+    <!-- 7 Backgrounds->
+                <!-- 7a-->
+    <!-- solution example: opacity -->
+    <h1>ccs_7a_backgrounds</h1>
+    <br>
+
+    <h1 style="background-color:blue;opacity:0.2;color:white">ccs_7a opacity:0.1</h1>
+
+    <div class="first">
+        <h1>opacity 0.1</h1>
+    </div>
+
+
+    <!-- link to source file -->
+    <a href="C:/Users/andre/Desktop/CodingTemple/code_temple/html_css/css/css6_colors.html"><br>
+        link to source file</a>
+    <br>
+
+    <!-- 7b-->
+    <!-- solution example: rgba opacity -->
+    <h1>ccs_7a_backgrounds_rgba_opacity</h1>
+    <br>
+
+    <div class="second">
+        <h1>30% opacity</h1>
+    </div>
+
+    <!-- link to source file -->
+    <a href="C:/Users/andre/Desktop/CodingTemple/code_temple/html_css/css/css6_colors_rgba.html"><br>
+        link to source file</a>
+    <br>
+
+
+
+</body>
+
+</html>

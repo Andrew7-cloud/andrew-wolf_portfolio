@@ -1,0 +1,46 @@
+<!-- 
+CSS Selectors
+CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+5 Categories:
+1. Simple selectors (select elements based on name, id #, class . )
+2. Combinator selectors (select elements based on a specific relationship between them)
+3. Pseudo-class selectors (select elements based on a certain state)
+4. Pseudo-elements selectors (select and style a part of an element)
+5. Attribute selectors (select elements based on an attribute or attribute value)
+
+Cascading Order
+What style will be used when there is more than one style specified for an HTML element?
+All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:
+
+1. Inline style (inside an HTML element)
+2. External and internal style sheets (in the head section)
+3. Browser default
+So, an inline style has the highest priority, and will override external and internal styles and browser defaults.
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p {
+            text-align: center;
+            color: red;
+        }
+
+        #para1 {
+            text-align: center;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>Every paragraph will be affected by the style.</p>
+    <p id="para1">Me too!</p>
+    <p>And me!</p>
+
+</body>
+
+</html>

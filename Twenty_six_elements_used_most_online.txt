@@ -1,0 +1,28 @@
+The twenty six elements used on the most pages, ordered by frequency:
+
+<head> 100%
+<html> 100%
+<body> 99%
+<title> 97%
+<meta> 93%
+<div> 89%
+<a> 89%
+<script> 88%
+<link> 86%
+<img> 86%
+<p> 81%
+<span> 75%
+<li> 
+<ul>
+<br>
+<style> 60%
+<h1>
+<h2> 52%
+<input>
+<form>
+<strong>
+<h3> 43%
+<table>
+<tbody>
+<tr>
+<td> 30%

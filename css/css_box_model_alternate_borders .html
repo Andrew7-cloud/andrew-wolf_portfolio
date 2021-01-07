@@ -1,0 +1,74 @@
+<!--
+border property lets us add and style a line around the content padding area.
+
+Thickness
+border-width: 
+
+Color
+border-color:
+
+Style
+border-style:solid
+border-style:dotted
+border-style:dashed
+border-style:double
+border-style:groove
+border-style:ridge
+border-style:none
+
+Shorthand
+shorthand border property to define all three. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css_box_model_alternate</title>
+
+
+    <style>
+        h2 {
+            box-sizing: border-box;
+            max-width: 300px;
+            border: 2px solid #A00081;
+            padding: 5px;
+        }
+
+        p {
+            box-sizing: border-box;
+            min-height: 100px;
+            border: 2px solid #F00081;
+            padding: 5px;
+        }
+
+        blockquote {
+            background-color: #DDDDDD;
+            box-sizing: border-box;
+            width: 300px;
+            padding: 30px;
+            border-right: 2px dashed #000000;
+            border-left: 10px groove #8866AA;
+            border-top: 5px dotted #AAAAAA;
+            border-bottom: 20px solid #2266AA;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>The Borders CSS Box Model</h2>
+
+    <p>In this CSS box model, a defined max-width constrains the content width of the heading and a defined min-height
+        constrains the box height so that it;s taller than the rendered text.</p>
+
+    <blockquote>Using CSS, I can style each side of the border area of this blockquote to be unique. The border-right,
+        border-left, border-top, and border-bottom properties are all defined with three values: the first defines its
+        width, the second its style, and the third its color.
+    </blockquote>
+
+</body>
+
+</html>

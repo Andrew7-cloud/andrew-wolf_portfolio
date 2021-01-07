@@ -1,0 +1,90 @@
+<!--  
+HTML tables allow web developers to arrange data into rows and columns.
+
+HTML Table:
+<table> tag defines an HTML table.
+Each table row is defined with a <tr> tag.
+Each table header is defined with a <th> tag.
+Each table data (cell) is defined with a <td> tag.
+* By default, the text in <th> elements are bold and centered.
+* By default, the text in <td> elements are regular and left-aligned.
+
+Note: The <td> elements are the data containers of the table.
+They can contain all sorts of HTML elements; text, images, lists, other tables, etc.
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>HTML Table</h2>
+
+    <table>
+        <!--  table row 1-->
+        <tr>
+            <!--  table headers (bolded, attached to table structure)-->
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+
+        <!--  table row 2-->
+        <tr>
+            <!--  table data (not bolded, attached to table structure)-->
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+        </tr>
+        <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
